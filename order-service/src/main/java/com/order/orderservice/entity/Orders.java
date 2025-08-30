@@ -12,7 +12,7 @@ import lombok.*;
 @Builder
 @Getter
 @Setter
-public class Order {
+public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

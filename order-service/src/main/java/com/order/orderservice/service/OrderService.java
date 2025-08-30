@@ -1,11 +1,10 @@
 package com.order.orderservice.service;
 
-import com.order.orderservice.entity.Order;
-import org.springframework.data.domain.Sort;
+import com.order.orderservice.entity.Orders;
 
 import java.util.List;
 
 public interface OrderService {
-    List<Order> getAllOrders();
-    Order createOrder(Order newOrder);
+    List<Orders> getAllOrders();
+    Orders createOrder(Orders newOrder);
 }
